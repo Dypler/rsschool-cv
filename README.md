@@ -1,1 +1,1 @@
-https://Dypler.github.io/rsschool-cv/cv
+https://Dypler.github.io/rsschool-cv/
