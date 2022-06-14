@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верстка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="container">
+      <header class="header">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="#contacts" class="header__link">Contacts</a></li>
+            <li class="header__item"><a href="#About Me" class="header__link">About Me</a></li>
+            <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
+            <li class="header__item"><a href="#Code Example" class="header__link">Code Example</a></li>
+            <li class="header__item"><a href="#Education" class="header__link">Education</a></li>
+            <li class="header__item"><a href="#Language" class="header__link">Language</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="main__aboutme">
+          <div class="main__photo">
+            <img src="img/me.png" alt="me">
+          </div>
+          <div class="main__info">
+            <h1  class="main__info_h1">Saveliy Suntsov</h1>
+            <h2  class="main__info_h2">JUNIOR FRONTEND DEVELOPER</h2>
+            <div id="About Me" class="title">
+              About Me
+            </div>
+            <div class="main__info_subtitle">
+              I have little experience in website development <br> but I want to learn more on the RSSchool course!
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div id="contacts" class="main__contacts">
+          <div class="title">
+            Contacts:
+          </div>
+          <div class="main__contacts_ul">
+            <ul>
+              <li>Location: izhevsk, Russia</li>
+              <li>Telegram:<a href="https://t.me/sunzakup">@sunzakup</a> </li>
+              <li>Email: sun.zakup@mail.ru</li>
+              <li>GitHub:<a href="https://github.com/Dypler">Dypler</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div id="skills" class="other">
+          <div class="other__title">
+            Skills
+          </div>
+          <div class="other__subtitle">
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS (Basic)</li>
+              <li>Git / GitHub</li>
+              <li>Figma/Adobe Photoshop</li>
+             </ol>          </div>
+          <div class="line"></div>
+        <div id="Code Example" class="code">
+          <div class="code__title">
+            Code Example
+          </div>
+          <pre>
+            <code>
+              function createPhoneNumber(numbers){
+                var phone = "(xxx) xxx-xxxx";
+                
+                for(var a = 0; a < numbers.length; a++)
+                {
+                  phone = phone.replace('x', numbers[a]);
+                }
+                return phone;
+              }
+            </code>
+          </pre>
+        </div>
+        <div class="line"></div>
+        <div class="other">
+          <div class="other__title">
+            Experience
+          </div>
+          <div class="other__subtitle">
+            I'm working on it)
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="other">
+          <div id="Education" class="other__title">
+            Education
+          </div>
+          <div class="other__subtitle">
+            <ol>
+              <li>Izhevsk State Technical University, Applied Computer Science</li>
+              <li>HTML/CSS/JS courses from youtube</li>
+             </ol>          
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="other">
+          <div class="other__title">
+            Language:
+          </div>
+          <div id="Language" class="other__subtitle">
+            <ul>
+              <li>English - A2</li>
+              <li>Russian - native speaker</li>
+            </ul>
+          </div>
+        </div>
+        <div class="line"></div>
+      </main>
+    </section>
+    <footer class="footer">
+      <div class="footer__git"><a href="https://github.com/Dypler"><img class="footer__git_img" src="img/GitHub_Logo.png" alt="GitHub"></a></div>
+      <div class="footer__yaer">2022</div>
+      <div class="footer__rs"><a href="https://rs.school/js/"><img src="icons/rs_school_js.svg" alt="rs_school_js"></a> </div>
+    </footer>
+</body>
+</html>
