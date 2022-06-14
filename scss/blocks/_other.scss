@@ -1,0 +1,17 @@
+.other {
+    padding: 20px 0px 20px 0px;
+    &__title {
+        width: 120px;
+        height: 27px;
+        left: 50px;
+        top: 162px;
+        background: #1B1C37;
+        color: #EDEEFF;
+        font-size: 24px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 24px;
+        color: #EDEEFF;
+    }
+}

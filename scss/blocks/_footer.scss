@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(136, 110, 110);
+    max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    &__yaer {
+        margin-top: 60px;
+        font-size: 56px;
+        color: #EDEEFF;
+
+    }
+}
