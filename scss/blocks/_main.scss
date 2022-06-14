@@ -1,0 +1,50 @@
+.main {
+    padding: 20px 20px;
+    background-color: rgb(182, 160, 160);
+    &__contacts {
+        align-items:center;
+        padding-top: 20px;  
+        &_ul {
+            font-weight: 500;
+            font-size: 24px;
+            color: #EDEEFF;
+        } 
+        }
+    &__aboutme {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        padding-right: 250px;
+        &_h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52px;
+            color: #EDEEFF;
+            margin: 0;
+        }
+        &_h2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            color: #EDEEFF;
+        }
+        &_subtitle {
+            line-height: 36px;
+            font-weight: 400;
+            font-size: 22px;
+            color: #EDEEFF;
+        }
+    
+    }
+
+}
+.line {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items:center;
+    width: 100%;
+    height: 5px;
+    background: #E0E8F0;
+}
